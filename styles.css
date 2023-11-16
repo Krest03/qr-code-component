@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: hsl(212, 45%, 89%);
+}
+
+.container{
+	max-width: 500px;
+	background-color: hsl(0, 0%, 100%);
+	margin:60px auto;
+	align-items: center;
+	padding: 70px;
+	border-radius: 10px;
+}
+
+img{
+	border-radius: 10px;
+	height: 100%;
+	width: 100% ;
+}
+
+h1{
+	text-align: center;
+	margin-top: 60px;
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+	font-size: 15px;
+}
+
+p{
+	font-size: 15px;
+	margin-top: 20px;
+	font-weight: 400;
+	text-align: center;
+	color: hsl(220, 15%, 55%);
+}
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+
+/* responsiveness */
+@media only screen and (max-width:580px) {
+	.container{
+		max-width: 300px;
+	}
+	img{
+		height: 100%;
+		width:100% ;
+	} 
+}
+
+@media only screen and (max-width:350px) {
+	.container{
+		max-width: 250px;
+	}
+}
+	
+@media only screen and (max-width:290px) {
+	.container{
+		max-width: 235px;
+	}
+}
+@media only screen and (max-width:265px) {
+	.container{
+		max-width: 220px;
+	}
+}
+
